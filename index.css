@@ -1,0 +1,80 @@
+body {
+  font-family: cursive;
+  background-color: beige;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: aqua;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  width: 90%;
+}
+.nav {
+  min-height: 8vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  color: white;
+}
+.nav-item {
+  width: 40%;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+}
+.cont2 {
+  display: flex;
+  justify-content: center;
+  margin: 5rem;
+}
+
+.btn {
+  color: blueviolet;
+  display: inline-block;
+  background-color: orange;
+  border-radius: 20%;
+  border: 0cm;
+  padding: 10px;
+  box-shadow: 3rem;
+  font-weight: 800;
+  cursor: pointer;
+  outline: none;
+}
+.sect2 {
+  justify-content: center;
+  background-color: brown;
+}
+
+.form-todo {
+  justify-content: center;
+  display: flex;
+}
+
+input[type="text"] {
+  width: 75%;
+  margin: 10px;
+  padding: 20px;
+  font-size: larger;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+input {
+  width: 75%;
+  margin: 10px;
+  padding: 20px;
+  font-size: larger;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}

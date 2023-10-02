@@ -27,3 +27,15 @@ console.log(numbers);
 //just like python
 //array method : .push --> append ; .pop --> remove last elemtn
 // .shift --> remove 0th element ; unshift ---> add elements to 1sts
+
+// how to clone array
+// how to concatenate two arrays
+
+let array1 = ["iteml", "item2"];
+// Zet array2 = ["iteml
+
+let array2 = arrayl.slice(0);
+// let array2 = [1. concat(arrayl);
+// new way
+// spread operator
+// let array2 = T... arraylj;

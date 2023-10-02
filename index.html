@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my website</title>
+    <link rel="stylesheet" href="./index.css" />
+   
+  </head>
+  <body>
+    <header class="container">
+      <nav class="nav">
+        <h1 class="logo">My Website</h1>
+        <ul class="nav-item">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Class</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="cont2">
+        <h2 class="headline">Manage Your Task</h2>
+      </div>
+      <div class="cont2">
+        <button class="btn bth-headline">Learn More</button>
+      </div>
+    </header>
+    <section class="sect2">
+    <div class="cont2">
+      <h2 id="q2">Your Plan for Today ?</h2>
+    </div>
+
+      <form class="form-todo">
+        <input type="text" name="todo" placeholder="Enter your Task">
+        <input type="submit" value="Add Todo" onclick="hello()" class="btn btn-primary">
+      </form>
+    </section>
+    <h1 id="demo"></h1>
+    <section>
+        <form class="signup">
+        <div class="mb-3">
+          <label for="Name">Name :</label>
+          <input type="text"class="todo-name" name="name"  placeholder="Enter Your Name"><br>
+          <label for="taskname">Taskname :</label>
+          <input type="text"class="todo-task" name="taskname"  placeholder="Enter Name of Your Task"><br>
+          <label for="time">Time :</label>
+          <input type="text"class="todo-time" name="time"  placeholder="Enter time for Execution"><br>
+          <label for="username">Username :</label>
+          <input type="text"class="username" name="username"  placeholder="Enter Your username"><br>
+          <label for="password">Password :</label>
+          <input type="password"class="password" name="password"  placeholder="Enter Your password"><br>
+          <label for="cnfpassword">Confirm Password :</label>
+          <input type="password"class="cnfpassword" name="cnfpassword"  placeholder="Enter Your confirm password"><br>
+          <label for="email">Email :</label>
+          <input type="email"class="email" name="email"  placeholder="Enter Your email"><br>
+          <label for="aboutus">About : </label>
+          <input col=30 row=40 class="aboutus" name="aboutus"  placeholder="About Yourself..........."><br>
+          <input type="submit"  submit2 btn" name="submit2" value="Sign Up">
+    
+        </form>
+        </div>
+    </section>
+  </body>
+  <script src="./file9.js" defer></script>
+  <!-- async : for pasing parallel -->
+  <!-- defer : for exec. after, loading for file  -->
+</html>
