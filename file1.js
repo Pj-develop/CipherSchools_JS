@@ -146,3 +146,5 @@ while (i < 11) {
 for (i = 0; i < 12; i += 2) {
   console.log(i);
 }
+
+export const age4 = 999;
